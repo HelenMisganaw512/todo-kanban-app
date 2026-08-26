@@ -1,0 +1,35 @@
+.completed {
+    text-decoration: line-through;
+    color: gray;
+} 
+
+#todo{
+    background-color: rgb(218, 250, 253);
+    
+}
+#inprogress{
+    background-color: rgb(248, 229, 204);
+}
+#completed{
+    background-color: rgb(234, 171, 171);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c6c5c5;
+    padding: 20px;
+}
+
+.board {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 300px;
+}
